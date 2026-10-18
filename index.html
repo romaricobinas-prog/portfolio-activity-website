@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A professional portfolio of an IT student, including personal information, skills, certificates, achievements, and resume.">
+  <title>Personal Portfolio | IT Student</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <!-- Site navigation -->
+  <header class="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="logo">
+        <span class="logo-mark">P</span>
+        MyPortfolio<span class="logo-dot">.</span>
+      </a>
+      <button
+        class="nav-toggle"
+        id="navToggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-menu" id="navMenu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact" class="nav-cta">
+          Contact me <span>↗</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero section-anchor" id="home">
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy reveal">
+          <div class="availability">
+            <span class="status-dot"></span>
+            IT STUDENT · FUTURE PROFESSIONAL
+          </div>
+          <p class="eyebrow">HELLO, WELCOME TO MY PORTFOLIO</p>
+          <!-- PERSONALIZE: replace [Your Name], course, school, and text with your own details. -->
+          <p class="hero-description">
+            I'm an Information Technology student building practical skills,
+            exploring creative solutions, and learning one project at a time.
+            This portfolio shares my journey, work, and professional development.
+          </p>
+          <div class="hero-buttons">
+            <a href="#skills" class="button button-primary">
+              Explore my skills <span>↘</span>
+            </a>
+            <a href="#about" class="button button-ghost">A little about me</a>
+          </div>
+          <div class="hero-socials">
+            <span>FIND ME ONLINE</span>
+            <a href="https://github.com/romaricobinas-prog" target="_blank" rel="noreferrer">
+              GitHub ↗
+            </a>
+            <a
+              href="https://www.linkedin.com/search/results/people/?keywords=Romarico%20Binas"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn ↗
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual reveal reveal-delay">
+          <div class="visual-glow"></div>
+          <div class="profile-card">
+            <div class="profile-top">
+              <span class="window-dots">
+                <i></i>
+                <i></i>
+                <i></i>
+              </span>
+              <span>MY PROFILE</span>
+              <span class="tiny-star">✦</span>
+            </div>
+            <div class="profile-avatar">
+              <span>RB</span>
+              <div class="avatar-ring"></div>
+            </div>
+            <p class="profile-kicker">ASPIRING IT PROFESSIONAL</p>
+            <h2>Romarico P. Biñas</h2>
+            <p class="profile-course">Bachelor of Science in Information Technology</p>
+            <div class="profile-divider"></div>
+            <div class="profile-stat-row">
+              <div><strong>01</strong><span>Curiosity</span></div>
+              <div><strong>∞</strong><span>Learning</span></div>
+              <div><strong>100%</strong><span>Effort</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#about">
+        <span></span>
+        SCROLL TO EXPLORE
+      </a>
+    </section>
+    <!-- About -->
+    <section class="section container section-anchor" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 — ABOUT ME</p>
+        <h2>A little about <span class="gradient-text">my journey.</span></h2>
+        <p>Every skill starts with a willingness to learn. Here's mine.</p>
+      </div>
+      <div class="about-layout">
+        <div class="about-story reveal">
+          <p class="large-copy">
+            I'm currently studying Information Technology and discovering how
+            technology can solve everyday problems. I enjoy learning new tools,
+            working through challenges, and turning classroom lessons into
+            practical experience.
+          </p>
+          <p>
+            As I continue my studies, I want to strengthen my technical
+            foundation, collaborate with others, and create projects that are
+            useful, thoughtful, and easy to use. This portfolio is a record of
+            that progress—not just the finished work, but the learning behind it.
+          </p>
+          <p>
+            I used to think IT was just about clicking buttons, but I was
+            mistaken. Kidding aside, studying IT is enjoyable because I get to
+            learn different programming languages and gain a wide range of
+            experiences.
+          </p>
+          <p>
+            Things may seem difficult at first, but with dedication and
+            consistent study, nothing is impossible.
+          </p>
+          <div class="quote-line">
+            <span>“</span>
+            <p>Stay curious, keep practicing, and make each project a chance to improve.</p>
+          </div>
+        </div>
+        <div class="info-card reveal reveal-delay">
+          <div class="info-card-head">
+            <span class="info-icon">✦</span>
+            <div>
+              <h3>Personal Information</h3>
+              <p>A few details about me</p>
+            </div>
+          </div>
+          <div class="info-row">
+            <span>Education</span>
+            <strong>Bachelor of Science in Information Technology</strong>
+          </div>
+          <div class="info-row">
+            <span>School</span>
+            <strong>Northeastern College</strong>
+          </div>
+          <div class="info-row">
+            <span>Location</span>
+            <strong>Santiago City, Isabela</strong>
+          </div>
+          <div class="info-row">
+            <span>Interests</span>
+            <strong>
+              Web Development, Mobile Programming, Basic SQL, Database
+              Management, Networking, etc.
+            </strong>
+          </div>
+          <div class="info-row">
+            <span>Career goal</span>
+            <strong>
+              To gain knowledge and hands-on experience to prepare for my future
+              career in IT, while developing my skills and contributing to useful
+              technology solutions.
+            </strong>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills -->
+    <section class="section skills-section section-anchor" id="skills">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <h2>Technical <span class="gradient-text">Skills</span></h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-icon blue">⌨</div>
+            <h3>Programming</h3>
+            <p>Developing programming skills and learning the fundamentals of Dart.</p>
+            <div class="skill-tags">
+              <span>PHP</span>
+              <span>C++</span>
+              <span>C#</span>
+              <span>Basic SQL</span>
+              <span>Dart Fundamentals</span>
+              <span>Database Management</span>
+            </div>
+          </article>
+          <article class="skill-card reveal reveal-delay-1">
+            <div class="skill-icon violet">▧</div>
+            <h3>Professional Experience</h3>
+            <p>
+              Experience managing system projects, configuring NAS servers,
+              developing websites, documenting systems, and debugging issues.
+            </p>
+            <div class="skill-tags">
+              <span>System Project Manager</span>
+              <span>NAS Configuration</span>
+              <span>Web Development</span>
+              <span>System Documentation</span>
+              <span>Debugging &amp; Error Resolution</span>
+            </div>
+          </article>
+          <article class="skill-card reveal reveal-delay-2">
+            <div class="skill-icon mint">✧</div>
+            <h3>Professional Skills</h3>
+            <p>
+              Certified in professional development and business
+              correspondence, with a focus on effective collaboration and
+              continuous learning.
+            </p>
+            <div class="skill-tags">
+              <span>Professional Development &amp; Business Correspondence</span>
+              <span>Problem-Solving &amp; Critical Thinking</span>
+              <span>Collaboration &amp; Teamwork</span>
+              <span>Effective Communication</span>
+              <span>Adaptability &amp; Continuous Learning</span>
+              <span>Professional Work Ethics</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- Certificates -->
+    <section class="section certificate-section section-anchor" id="certificates">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">03 — PROFESSIONAL DEVELOPMENT</p>
+          <h2><span class="gradient-text">Certificates</span></h2>
+        </div>
+        <div class="certificate-list">
+          <article class="certificate-card certificate-card-group reveal">
+            <div class="certificate-symbol">✧</div>
+            <div class="certificate-copy">
+              <span class="certificate-type">10TH I.T. WEEK · SEMINAR &amp; WORKSHOP</span>
+              <h3>10th I.T. Week Certificate Collection</h3>
+              <p>Northeastern College <span>·</span> August 27, 2026</p>
+              <div class="certificate-gallery">
+                <div class="certificate-gallery-item">
+                  <h4>Agentic AI</h4>
+                  <a class="certificate-image" href="certificates/IT%20week%20certificate.jpg" target="_blank" rel="noreferrer">
+                    <img src="certificates/IT%20week%20certificate.jpg" alt="Certificate of participation for Agentic AI">
+                  </a>
+                  <a href="certificates/IT%20week%20certificate.jpg" class="certificate-link" target="_blank" rel="noreferrer">View certificate ↗</a>
+                </div>
+                <div class="certificate-gallery-item">
+                  <h4>Video Editing Tips &amp; Tricks</h4>
+                  <a class="certificate-image" href="certificates/IT%20week%20cert.jpg" target="_blank" rel="noreferrer">
+                    <img src="certificates/IT%20week%20cert.jpg" alt="Certificate of participation for Video Editing Tips and Tricks">
+                  </a>
+                  <a href="certificates/IT%20week%20cert.jpg" class="certificate-link" target="_blank" rel="noreferrer">View certificate ↗</a>
+                </div>
+                <div class="certificate-gallery-item">
+                  <h4>Programming Fundamentals</h4>
+                  <a class="certificate-image" href="certificates/IT%20weeks.jpg" target="_blank" rel="noreferrer">
+                    <img src="certificates/IT%20weeks.jpg" alt="Certificate of participation for Programming Fundamentals">
+                  </a>
+                  <a href="certificates/IT%20weeks.jpg" class="certificate-link" target="_blank" rel="noreferrer">View certificate ↗</a>
+                </div>
+                <div class="certificate-gallery-item">
+                  <h4>Integrating IoT in Capstone Project</h4>
+                  <a class="certificate-image" href="certificates/IT%20week.jpg" target="_blank" rel="noreferrer">
+                    <img src="certificates/IT%20week.jpg" alt="Certificate of participation for Integrating IoT in Capstone Project">
+                  </a>
+                  <a href="certificates/IT%20week.jpg" class="certificate-link" target="_blank" rel="noreferrer">View certificate ↗</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="certificate-card certificate-card-group reveal">
+            <div class="certificate-symbol">✦</div>
+            <div class="certificate-copy">
+              <span class="certificate-type">TESDA · CERTIFICATE COLLECTION</span>
+              <h3>TESDA Computer Systems Servicing Certificates</h3>
+              <p>Technical Education and Skills Development Authority</p>
+              <div class="certificate-gallery">
+                <div class="certificate-gallery-item">
+                  <h4>Introduction to Computer Systems Servicing</h4>
+                  <p>October 12, 2026</p>
+                  <a class="certificate-image" href="certificates/TESDA%201.jpg" target="_blank" rel="noreferrer">
+                    <img src="certificates/TESDA%201.jpg" alt="TESDA certificate of completion for Introduction to Computer Systems Servicing">
+                  </a>
+                  <a href="certificates/TESDA%201.jpg" class="certificate-link" target="_blank" rel="noreferrer">View certificate ↗</a>
+                </div>
+                <div class="certificate-gallery-item">
+                  <h4>Maintaining Computer Systems and Networks</h4>
+                  <p>October 12, 2026</p>
+                  <a class="certificate-image" href="certificates/TESDA%202.jpg" target="_blank" rel="noreferrer">
+                    <img src="certificates/TESDA%202.jpg" alt="TESDA certificate of completion for Maintaining Computer Systems and Networks">
+                  </a>
+                  <a href="certificates/TESDA%202.jpg" class="certificate-link" target="_blank" rel="noreferrer">View certificate ↗</a>
+                </div>
+                <div class="certificate-gallery-item">
+                  <h4>Setting Up Computer Servers</h4>
+                  <p>October 13, 2026</p>
+                  <a class="certificate-image" href="certificates/TESDA%205.jpg" target="_blank" rel="noreferrer">
+                    <img src="certificates/TESDA%205.jpg" alt="TESDA certificate of completion for Setting Up Computer Servers">
+                  </a>
+                  <a href="certificates/TESDA%205.jpg" class="certificate-link" target="_blank" rel="noreferrer">View certificate ↗</a>
+                </div>
+                <div class="certificate-gallery-item">
+                  <h4>Setting Up Computer Networks</h4>
+                  <p>October 13, 2026</p>
+                  <a class="certificate-image" href="certificates/TESDA%206.jpg" target="_blank" rel="noreferrer">
+                    <img src="certificates/TESDA%206.jpg" alt="TESDA certificate of completion for Setting Up Computer Networks">
+                  </a>
+                  <a href="certificates/TESDA%206.jpg" class="certificate-link" target="_blank" rel="noreferrer">View certificate ↗</a>
+                </div>
+                <div class="certificate-gallery-item">
+                  <h4>Installing and Configuring Computer Systems</h4>
+                  <p>July 6, 2026</p>
+                  <a class="certificate-image" href="certificates/TESDA%203.jpg" target="_blank" rel="noreferrer">
+                    <img src="certificates/TESDA%203.jpg" alt="TESDA certificate of completion for Installing and Configuring Computer Systems">
+                  </a>
+                  <a href="certificates/TESDA%203.jpg" class="certificate-link" target="_blank" rel="noreferrer">View certificate ↗</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="certificate-card certificate-card-group reveal">
+            <div class="certificate-symbol">✦</div>
+            <div class="certificate-copy">
+              <span class="certificate-type">MICROSOFT · CERTIFICATE COLLECTION</span>
+              <h3>Microsoft AI Certificates</h3>
+              <p>Microsoft</p>
+              <div class="certificate-gallery">
+                <div class="certificate-gallery-item">
+                  <h4>Explore How Microsoft Copilot Chat Works</h4>
+                  <p>October 14, 2026</p>
+                  <a class="certificate-image" href="certificates/MICROSOFT.jpg" target="_blank" rel="noreferrer">
+                    <img src="certificates/MICROSOFT.jpg" alt="Microsoft certificate for Explore How Microsoft Copilot Chat Works">
+                  </a>
+                  <a href="certificates/MICROSOFT.jpg" class="certificate-link" target="_blank" rel="noreferrer">View certificate ↗</a>
+                </div>
+                <div class="certificate-gallery-item">
+                  <h4>Prepare to Use Generative AI at Work</h4>
+                  <p>October 14, 2026</p>
+                  <a class="certificate-image" href="certificates/MICROSOFT%202.jpg" target="_blank" rel="noreferrer">
+                    <img src="certificates/MICROSOFT%202.jpg" alt="Microsoft certificate for Prepare to Use Generative AI at Work">
+                  </a>
+                  <a href="certificates/MICROSOFT%202.jpg" class="certificate-link" target="_blank" rel="noreferrer">View certificate ↗</a>
+                </div>
+                <div class="certificate-gallery-item">
+                  <h4>Work Smarter with AI</h4>
+                  <p>October 14, 2026</p>
+                  <a class="certificate-image" href="certificates/MICROSOFT%203.jpg" target="_blank" rel="noreferrer">
+                    <img src="certificates/MICROSOFT%203.jpg" alt="Microsoft certificate for Work Smarter with AI">
+                  </a>
+                  <a href="certificates/MICROSOFT%203.jpg" class="certificate-link" target="_blank" rel="noreferrer">View certificate ↗</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="certificate-card certificate-card-group reveal">
+            <div class="certificate-symbol">⌘</div>
+            <div class="certificate-copy">
+              <span class="certificate-type">CISCO NETWORKING ACADEMY · CERTIFICATE COLLECTION</span>
+              <h3>Cisco Networking Academy Certificates</h3>
+              <p>Cisco Networking Academy</p>
+              <div class="certificate-gallery">
+                <div class="certificate-gallery-item">
+                  <h4>Getting Started with Cisco Packet Tracer</h4>
+                  <p>October 12, 2026</p>
+                  <a class="certificate-image" href="certificates/CISCO%201.jpg" target="_blank" rel="noreferrer">
+                    <img src="certificates/CISCO%201.jpg" alt="Cisco Networking Academy certificate for Getting Started with Cisco Packet Tracer">
+                  </a>
+                  <a href="certificates/CISCO%201.jpg" class="certificate-link" target="_blank" rel="noreferrer">View certificate ↗</a>
+                </div>
+                <div class="certificate-gallery-item">
+                  <h4>Exploring Networking with Cisco Packet Tracer</h4>
+                  <p>October 12, 2026</p>
+                  <a class="certificate-image" href="certificates/CISCO%202.jpg" target="_blank" rel="noreferrer">
+                    <img src="certificates/CISCO%202.jpg" alt="Cisco Networking Academy certificate for Exploring Networking with Cisco Packet Tracer">
+                  </a>
+                  <a href="certificates/CISCO%202.jpg" class="certificate-link" target="_blank" rel="noreferrer">View certificate ↗</a>
+                </div>
+                <div class="certificate-gallery-item">
+                  <h4>Introduction to Greenhouse Gas Accounting for IT</h4>
+                  <p>October 12, 2026</p>
+                  <a class="certificate-image" href="certificates/CISCO%203.jpg" target="_blank" rel="noreferrer">
+                    <img src="certificates/CISCO%203.jpg" alt="Cisco Networking Academy certificate for Introduction to Greenhouse Gas Accounting for IT">
+                  </a>
+                  <a href="certificates/CISCO%203.jpg" class="certificate-link" target="_blank" rel="noreferrer">View certificate ↗</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="certificate-card certificate-card-group reveal">
+            <div class="certificate-symbol">✧</div>
+            <div class="certificate-copy">
+              <span class="certificate-type">WEBINAR · CERTIFICATE COLLECTION</span>
+              <h3>Webinar Certificates</h3>
+              <p>Webinar participation and professional development</p>
+              <div class="certificate-gallery">
+                <div class="certificate-gallery-item">
+                  <h4>Startup Business and Innovation: “Spot the Gap, Build the System”</h4>
+                  <p>DICT Region VIII · September 2, 2026</p>
+                  <a class="certificate-image" href="certificates/WEBINAR%20%202.jpg" target="_blank" rel="noreferrer">
+                    <img src="certificates/WEBINAR%20%202.jpg" alt="Certificate of participation in the Startup Awareness Webinar, Startup Business and Innovation: Spot the Gap, Build the System">
+                  </a>
+                  <a href="certificates/WEBINAR%20%202.jpg" class="certificate-link" target="_blank" rel="noreferrer">View certificate ↗</a>
+                </div>
+                <div class="certificate-gallery-item">
+                  <h4>Can You Still Work Without AI?</h4>
+                  <p>DOST-NCR · August 31, 2026</p>
+                  <a class="certificate-image" href="certificates/WEBINAR%203.jpg" target="_blank" rel="noreferrer">
+                    <img src="certificates/WEBINAR%203.jpg" alt="Certificate of participation in the webinar Can You Still Work Without AI?">
+                  </a>
+                  <a href="certificates/WEBINAR%203.jpg" class="certificate-link" target="_blank" rel="noreferrer">View certificate ↗</a>
+                </div>
+                <div class="certificate-gallery-item">
+                  <h4>Cyber Hygiene 101</h4>
+                  <p>DICT ICT Literacy and Competency Development Bureau, Negros Island Region · October 2, 2026</p>
+                  <a class="certificate-image" href="certificates/WEBINAR.jpg" target="_blank" rel="noreferrer">
+                    <img src="certificates/WEBINAR.jpg" alt="Certificate of attendance for Cyber Hygiene 101">
+                  </a>
+                  <a href="certificates/WEBINAR.jpg" class="certificate-link" target="_blank" rel="noreferrer">View certificate ↗</a>
+                </div>
+                <div class="certificate-gallery-item">
+                  <h4>Cyber Tanaw: Emerging Cyber Threats and Technologies</h4>
+                  <p>DICT Region 02 · October 9, 2026</p>
+                  <a class="certificate-image" href="certificates/webinar%204.jpg" target="_blank" rel="noreferrer">
+                    <img src="certificates/webinar%204.jpg" alt="Certificate of participation for Cyber Tanaw: Emerging Cyber Threats and Technologies">
+                  </a>
+                  <a href="certificates/webinar%204.jpg" class="certificate-link" target="_blank" rel="noreferrer">View certificate ↗</a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- Achievements -->
+    <section class="section container section-anchor" id="achievements">
+      <div class="section-heading centered reveal">
+        <p class="eyebrow">04 — MILESTONES</p>
+        <h2>Achievements</h2>
+        <p>Include real accomplishments that reflect your effort and development.</p>
+      </div>
+      <div class="achievement-grid">
+        <article class="achievement-card reveal">
+          <span class="achievement-number">01</span>
+          <div>
+            <h3>Best Research — Grade 12</h3>
+            <p>Recognized for best research during Grade 12.</p>
+          </div>
+          <span class="achievement-mark">✦</span>
+        </article>
+        <article class="achievement-card reveal reveal-delay-1">
+          <span class="achievement-number">02</span>
+          <div>
+            <h3>Project Manager — 828 Cafe System</h3>
+            <p>Led my team as project manager in developing the 828 Cafe system.</p>
+          </div>
+          <span class="achievement-mark">✦</span>
+        </article>
+        <article class="achievement-card reveal reveal-delay-2">
+          <span class="achievement-number">03</span>
+          <div>
+            <h3>Created an Educational Website</h3>
+            <p>Built a website for educational purposes.</p>
+          </div>
+          <span class="achievement-mark">✦</span>
+        </article>
+        <article class="achievement-card reveal">
+          <span class="achievement-number">04</span>
+          <div>
+            <h3>Attended Webinars and Seminars</h3>
+            <p>Participated in webinars and seminars to build knowledge and professional skills.</p>
+          </div>
+          <span class="achievement-mark">✦</span>
+        </article>
+        <article class="achievement-card reveal reveal-delay-1">
+          <span class="achievement-number">05</span>
+          <div>
+            <h3>Certificates — TESDA, Microsoft &amp; Cisco</h3>
+            <p>Earned certificates from TESDA, Microsoft, and Cisco, and participated in webinars to grow my IT knowledge and skills.</p>
+          </div>
+          <span class="achievement-mark">✦</span>
+        </article>
+      </div>
+      <p class="small-note">
+        If you are still building your achievements, you can leave this section
+        brief and update it later.
+      </p>
+    </section>
+    <!-- Resume -->
+    <section class="resume-section section-anchor" id="resume">
+      <div class="container resume-banner reveal">
+        <div class="resume-icon">↓</div>
+        <div class="resume-copy">
+          <p class="eyebrow">05 — RESUME</p>
+          <h2>Want to know more?</h2>
+          <p>
+            Download my resume for a concise overview of my education, skills,
+            and experience.
+          </p>
+        </div>
+        <a
+          href="resume/resume.pdf.docx"
+          class="button button-light"
+          download="Romarico-Binas-Resume.docx"
+        >
+          Download resume <span>↓</span>
+        </a>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section class="section contact-section section-anchor" id="contact">
+      <div class="container contact-layout">
+        <div class="contact-intro reveal">
+          <p class="eyebrow">06 — CONTACT &amp; ONLINE PRESENCE</p>
+          <h2></h2>
+          <p>
+            Thanks for taking the time to explore my portfolio. I'm excited to
+            meet people in the tech community and discover opportunities to grow.
+          </p>
+        </div>
+        <div class="contact-card reveal reveal-delay">
+          <a href="mailto:romaricobinas@gmail.com" class="contact-row">
+            <span class="contact-icon">@</span>
+            <span>
+              <small>EMAIL</small>
+              <strong>romaricobinas@gmail.com</strong>
+            </span>
+            <span class="contact-arrow">↗</span>
+          </a>
+          <a
+            href="https://github.com/romaricobinas-prog"
+            target="_blank"
+            rel="noreferrer"
+            class="contact-row"
+          >
+            <span class="contact-icon">✦</span>
+            <span>
+              <small>COPILOT ACCOUNT</small>
+              <strong>romaricobinas-prog</strong>
+            </span>
+            <span class="contact-arrow">↗</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/search/results/people/?keywords=Romarico%20Binas"
+            target="_blank"
+            rel="noreferrer"
+            class="contact-row"
+          >
+            <span class="contact-icon">in</span>
+            <span>
+              <small>LINKEDIN</small>
+              <strong>Romarico Binas</strong>
+            </span>
+            <span class="contact-arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo footer-logo">
+        <span class="logo-mark">P</span>
+        MyPortfolio<span class="logo-dot">.</span>
+      </a>
+      <p>Made with curiosity and a commitment to growth.</p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+      <small>© <span id="year"></span> Romarico P. Biñas</small>
+    </div>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
