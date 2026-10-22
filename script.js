@@ -2,6 +2,22 @@ const navToggle = document.querySelector("#navToggle");
 const navMenu = document.querySelector("#navMenu");
 const scrollProgress = document.querySelector("#scrollProgress");
 const toast = document.querySelector("#toast");
+const themeToggle = document.querySelector("#themeToggle");
+
+function setTheme(theme) {
+  const isLight = theme === "light";
+  document.documentElement.dataset.theme = isLight ? "light" : "dark";
+  themeToggle.setAttribute("aria-pressed", String(isLight));
+  themeToggle.setAttribute("aria-label", `Switch to ${isLight ? "dark" : "light"} mode`);
+  themeToggle.innerHTML = `<span aria-hidden="true">${isLight ? "☾" : "☼"}</span> ${isLight ? "Dark" : "Light"} mode`;
+}
+
+setTheme(localStorage.getItem("portfolio-theme") || "dark");
+themeToggle.addEventListener("click", () => {
+  const theme = document.documentElement.dataset.theme === "light" ? "dark" : "light";
+  localStorage.setItem("portfolio-theme", theme);
+  setTheme(theme);
+});
 
 navToggle.addEventListener("click", () => {
   const opened = navMenu.classList.toggle("open");
